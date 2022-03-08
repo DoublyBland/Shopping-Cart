@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    justify-content: space-between;
+    padding: 5px;
+    color: black;
+}
+
+.navbar-right {
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex: .3;
+}
+
+.navbar-right>img {
+    width: 25px;
+}
